@@ -15,7 +15,7 @@ library(RColorBrewer)
 #-------------------------------
 
 # i) Setting path to the folder of data file
-setwd("C:/Users/Afzal/Dropbox (Kyung Hee University)/Sejong University/Research/COVID-19/Review Paper on COVID-19/")
+setwd("./")
 
 # ii) Loading data into data frame
 dfPubData <- data.frame(read.csv(file = "PublicationData2020.csv", sep = ",", header = TRUE, stringsAsFactors = TRUE))
